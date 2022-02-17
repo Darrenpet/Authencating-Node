@@ -1,0 +1,15 @@
+GET http://localhost:4000/posts/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5LCJ1c2VyX25hbWUiOiJKb2huIiwidXNlcl9lbWFpbCI6ImpvaG5AZ21haWwuY29tIiwidXNlcl9jb250YWN0IjoiMDk0ODY5MTIzNCIsInVzZXJfcGFzc3dvcmQiOiIkMmIkMTAkOWxFQWtVejNSdEhxMVhHRnY1a0l0T0k4aDBxQWcxOVBZcGloUUtoc29xSGRZY25VNmlPWXEiLCJ1c2VyX2F2YXRhciI6bnVsbCwidXNlcl9hYm91dCI6bnVsbH0.muoFNmI4IahX17YjbGQEkeuRzOEMUcLJD0oKajTZ82E
+
+###
+
+POST http://localhost:4000/posts/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5LCJ1c2VyX25hbWUiOiJKb2huIiwidXNlcl9lbWFpbCI6ImpvaG5AZ21haWwuY29tIiwidXNlcl9jb250YWN0IjoiMDk0ODY5MTIzNCIsInVzZXJfcGFzc3dvcmQiOiIkMmIkMTAkOWxFQWtVejNSdEhxMVhHRnY1a0l0T0k4aDBxQWcxOVBZcGloUUtoc29xSGRZY25VNmlPWXEiLCJ1c2VyX2F2YXRhciI6bnVsbCwidXNlcl9hYm91dCI6bnVsbH0.muoFNmI4IahX17YjbGQEkeuRzOEMUcLJD0oKajTZ82E
+Content-Type: application/json
+
+{
+    "title": "Moon",
+    "body": "I orbit around the Earth",
+    "date": "1996-07-29",
+    "author": "The Universe"
+}
